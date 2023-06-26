@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: large;
+    background-color: #091513;
+    background-image: url("desert.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #f40707;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    padding: 20px;
+}
+
+#hoursInput, #calculate {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#hoursInput {
+    width: 150px;
+    border-radius: 15px;
+    border: 3px solid orange;
+}
+
+#calculate {
+    cursor: pointer;
+    border: 3px solid orangered;
+    border-radius: 15px;
+    background-color: #f4f4f4;
+    color: #050505;
+    transition: background-color 0.3s ease;
+}
+
+#calculate:hover {
+    background-color: #ddd;
+}
+
+#futureDate {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
